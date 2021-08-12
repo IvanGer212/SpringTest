@@ -4,6 +4,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ComponentScan;
 
 @Configuration
-@ComponentScan()
+@ComponentScan({"com.geekbrains.context.repository", "com.geekbrains.context.service"})
 public class AppConfiguration {
 }
